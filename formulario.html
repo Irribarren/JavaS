@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Formulario</title>
+	
+	<script type="text/javascript">
+		function validar()
+		{
+			var usuario = document.getElementById("usuario").value;
+			var Contraseña = document.getElementById("pass").value;	
+
+			if(usuario == "mcantique" && Contraseña == "123456")
+			{
+				alert("usted ah ingresado");
+			}
+			else
+			{
+				alert("incorrecto,vuelve a intentarlo");
+			}
+		}
+
+
+	</script>
+
+</head>
+<body>
+
+			Usuario:<input type="text" name="usuario" id="usuario"></td>
+			
+			Contraseña:<input type="password" name="pass" id="pass"></td>
+			
+				<td colspan="2"><input type="button" name="btnVerifivaca" id="btnVerifica" onclick="validar()" value="verificar" 
+			
+		
+</body>
+</html>
